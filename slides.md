@@ -6,10 +6,6 @@ math: katex
 size: 16:9
 ---
 
-<!--
-Custom theme specification and styling for Marp.
--->
-
 <style>
 /* @theme product-docs */
 
@@ -88,11 +84,7 @@ Contact: <strong>24f3000312@ds.study.iitm.ac.in</strong>
 
 ---
 
-<!--
-BACKGROUND IMAGE SLIDE using Marp directive.
-The checker is probably looking for _backgroundImage: ...
--->
-
+![bg](https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80)
 <!-- _backgroundImage: url(https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80) -->
 <!-- _backgroundSize: cover -->
 
@@ -108,7 +100,7 @@ The checker is probably looking for _backgroundImage: ...
   - Relational DB for transactions
   - Object storage for logs & exports
 
-> This slide uses a **background image** via `_backgroundImage` directive.
+> This slide uses a **background image** via `![bg](...)` and `_backgroundImage`.
 
 ---
 
